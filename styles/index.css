@@ -91,7 +91,7 @@
     width: 100%;
     padding: 90px 60px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
     gap: 65px;
     background-color: #050505;
