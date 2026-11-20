@@ -4,11 +4,9 @@ img {
     display: block;
     object-fit: cover;
 }
-
 .section-padding {
     padding: 100px 9%;
 }
-
 .section-tag {
     color: #e63939;
     font-size: 35px;
@@ -17,28 +15,23 @@ img {
     display: inline-block;
     margin-bottom: 15px;
 }
-
 h1, h2, h3 {
     font-family: 'Barlow Condensed', sans-serif;
     color: red;
 }
-
 .section-heading {
     text-align: center;
     margin-bottom: 55px;
 }
-
 .section-heading h2 {
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 12px;
     color: #e63939;
 }
-
 .section-heading h2 span {
     color: #e63939;
 }
-
 .section-heading p {
     color: #a5a5a5;
     font-size: 14px;
@@ -78,23 +71,19 @@ h1, h2, h3 {
     align-items: center;
     padding: 9% 9%;
 }
-
 .hero-content {
     position: relative;
     z-index: 1;
 }
-
 .hero-content h1 {
     font-size: 85px;
     line-height: 1;
     margin-bottom: 20px;
     color: white;
 }
-
 .hero-content h1 span {
     color: #e63939;
 }
-
 .hero-content p {
     color: #dddddd;
     font-size: 18px;
@@ -106,17 +95,14 @@ h1, h2, h3 {
     align-items: center;
     gap: 70px;
 }
-
 .overview-image {
     flex: 1;
     position: relative;
 }
-
 .overview-image img {
     height: 430px;
     border-radius: 5px;
 }
-
 .experience-box {
     position: absolute;
     bottom: -25px;
@@ -125,31 +111,25 @@ h1, h2, h3 {
     padding: 20px 35px;
     text-align: center;
 }
-
 .experience-box h2 {
     font-size: 40px;
     color: #ffffff;
 }
-
 .experience-box p {
     font-size: 12px;
     letter-spacing: 3px;
 }
-
 .overview-content {
     flex: 1;
 }
-
 .overview-content h2 {
     font-size: 43px;
     line-height: 1.1;
     margin-bottom: 25px;
 }
-
 .overview-content h2 span {
     color: #e63939;
 }
-
 .overview-content p {
     color: #a5a5a5;
     font-size: 14px;
@@ -160,26 +140,21 @@ h1, h2, h3 {
 .history {
     background: #1b1b1b;
 }
-
 .history-content {
     display: flex;
     align-items: center;
     gap: 55px;
 }
-
 .history-image {
     flex: 1;
 }
-
 .history-image img {
     height: 390px;
     border-radius: 5px;
 }
-
 .history-text {
     flex: 1;
 }
-
 .history-year {
     display: inline-block;
     color: #e63939;
@@ -190,19 +165,16 @@ h1, h2, h3 {
     letter-spacing: 2px;
     margin-bottom: 15px;
 }
-
 .history-text h3 {
     font-size: 38px;
     margin-bottom: 20px;
 }
-
 .history-text p {
     color: #a5a5a5;
     font-size: 14px;
     line-height: 1.9;
     margin-bottom: 15px;
 }
-
 .history-details {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -211,7 +183,6 @@ h1, h2, h3 {
     border-top: 1px solid #393939;
     padding-top: 25px;
 }
-
 .history-details span {
     display: block;
     color: #a5a5a5;
@@ -219,7 +190,6 @@ h1, h2, h3 {
     letter-spacing: 1px;
     margin-bottom: 8px;
 }
-
 .history-details h4 {
     font-size: 14px;
     color: white;
@@ -234,40 +204,33 @@ h1, h2, h3 {
     border-radius: 5px;
     overflow: hidden;
 }
-
 .ceo-image {
     width: 40%;
 }
-
 .ceo-image img {
     height: 100%;
     min-height: 400px;
 }
-
 .ceo-info {
     flex: 1;
     padding: 50px;
 }
-
 .ceo-info h3 {
     font-size: 42px;
     margin-bottom: 5px;
 }
-
 .ceo-info h4 {
     color: #e63939;
     font-size: 13px;
     font-weight: 500;
     margin-bottom: 25px;
 }
-
 .ceo-info p {
     color: #a5a5a5;
     font-size: 14px;
     line-height: 1.9;
     margin-bottom: 15px;
 }
-
 .ceo-signature {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 28px;
@@ -279,46 +242,37 @@ h1, h2, h3 {
 .team {
     background: #1b1b1b;
 }
-
 .team-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
-
 .team-card {
     background: #252525;
     overflow: hidden;
     transition: 0.3s;
 }
-
 .team-card:hover {
     transform: translateY(-8px);
 }
-
 .team-image {
     overflow: hidden;
 }
-
 .team-image img {
     height: 280px;
     transition: 0.4s;
 }
-
 .team-card:hover img {
     transform: scale(1.06);
 }
-
 .team-info {
     padding: 20px;
     border-bottom: 3px solid #e63939;
 }
-
 .team-info h3 {
     font-size: 23px;
     margin-bottom: 5px;
 }
-
 .team-info span {
     color: #e63939;
     font-size: 10px;
@@ -331,7 +285,6 @@ h1, h2, h3 {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
 }
-
 .achievement-card {
     background: #1b1b1b;
     padding: 0 0 35px 0;
@@ -341,7 +294,6 @@ h1, h2, h3 {
     display: flex;
     flex-direction: column;
 }
-
 .achievement-card:hover {
     border-color: #e63939;
     transform: translateY(-5px);
@@ -378,18 +330,15 @@ h1, h2, h3 {
     padding-left: 30px;
     padding-right: 30px;
 }
-
 .achievement-card h3 {
     font-size: 25px;
     margin-bottom: 8px;
 }
-
 .achievement-card span {
     color: #e63939;
     font-size: 12px;
     font-weight: 600;
 }
-
 .achievement-card p {
     color: #a5a5a5;
     font-size: 13px;
@@ -400,7 +349,6 @@ h1, h2, h3 {
 .vision {
     background: #1b1b1b;
 }
-
 .vision-grid {
     display: grid;
     grid-template-columns: 1fr 1.4fr;
@@ -476,22 +424,18 @@ h1, h2, h3 {
     background-position: center;
     background-size: cover;
 }
-
 .cta-content {
     max-width: 750px;
     margin: auto;
 }
-
 .cta-content h2 {
     font-size: 50px;
     line-height: 1.1;
     margin-bottom: 20px;
 }
-
 .cta-content h2 span {
     color: #e63939;
 }
-
 .cta-content p {
     color: #a5a5a5;
     font-size: 14px;
