@@ -15,7 +15,7 @@
 }
 
 .who-content .who-title {
-     color: white;
+    color: white;
 }
 
 .hero-content {
@@ -113,7 +113,7 @@
 }
 
 .services-section h2 {
-     color: black;
+    color: black;
 }
 
 .who-image:hover img {
@@ -121,7 +121,7 @@
 }
 
 .who-content span {
-     color: white;
+    color: white;
 }
 
 .who-content h2,
@@ -433,14 +433,14 @@
 }
 
 .achievement-section {
-    padding: 80px 60px;
+    padding: 50px 60px;
     background: #a00d0d;
 }
 
 .achievement-heading {
     text-align: center;
     width: 700px;
-    margin: 0 auto 50px;
+    margin: 0 25% 30px;
 }
 
 .achievement-heading h2 {
@@ -460,7 +460,6 @@
 
 .achievement-container {
     width: 100%;
-    max-width: 1300px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -512,6 +511,25 @@
     font-size: 14px;
     line-height: 1.7;
 }
+.btn-achv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.btn-achv a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s ease;
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.btn-achv a:hover {
+    background-color: white;
+    color: rgb(152, 13, 13);
+}
 
 .cta-section {
     padding: 90px 7%;
@@ -523,9 +541,9 @@
 }
 
 .cta-content {
-     background-color: #050505d0;
-     padding: 20px;
-     border-radius: 20px;
+    background-color: #050505d0;
+    padding: 20px;
+    border-radius: 20px;
     width: 800px;
     margin: auto;
 }
@@ -552,7 +570,7 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 13px;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 .btn-cta:hover {
