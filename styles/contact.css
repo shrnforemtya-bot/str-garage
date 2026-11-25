@@ -1,0 +1,364 @@
+@import url(header-footer.css);
+
+main {
+    background-color: #e3e0e0;
+}
+
+.info {
+    margin: 70px 80px 0;
+    background-color: #e3e0e0;
+    border-radius: 20px;
+}
+
+.space {
+    background-color: #e3e0e0;
+    padding: 35px 0;
+}
+
+.contact-hero {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 70px 100px;
+    background:
+        linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.3)),
+        url("../assets/images/hero/hero-str.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.hero-content h1 {
+    color: #ffffff;
+    font-size: 75px;
+    margin: 10px 0;
+}
+
+.hero-content h1 span {
+    color: #e63939;
+}
+
+.hero-content p {
+    color: #cccccc;
+    line-height: 1.8;
+    max-width: 500px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-heading h2 {
+    font-size: 35px;
+    margin: 0px 0;
+}
+
+.section-heading h2 span,
+.form-description h2 span {
+    color: #e63939;
+}
+
+.section-heading span {
+    color: white;
+}
+
+.section-heading p {
+    color: #aaaaaa;
+    font-size: 16px;
+}
+
+.info-main {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    grid-template-rows: 1.4fr 0.6fr;
+    grid-template-areas:
+        "contact-info contact-form-section"
+        "location-section contact-form-section";
+    gap: 28px;
+    background-color: #e3e0e0;
+;
+}
+
+.contact-info {
+    grid-area: contact-info;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    padding: 40px 50px;
+}
+
+.contact-info h2,
+.contact-info p,
+.contact-info span {
+    color: #000000;
+}
+
+.contact-info p {
+    margin: 3px 0 0 ;
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: 0.35fr 0.65fr;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr 0.3fr;
+    grid-template-areas:
+        "phone phone"
+        "email email"
+        "hour hour"
+        "location location";
+    gap: 15px;
+}
+
+.info-location {
+    padding: 10px 10px;
+}
+
+.office {
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.info-location p {
+    line-height: 30px;
+    margin-left: 15px;
+    color: #bd2525;
+    font-size: 17px;
+}
+
+.info-location .fa-location-dot {
+    color: #bd2525;
+    margin-right: 5px;
+}
+
+.info-card {
+    padding: 15px 20px 10px;
+    border-radius: 15px;
+    background-color: #eed1d16c;
+    border: 2px solid red;
+    transition: 0.3s;
+}
+
+.info-card h4 {
+    color: #bd2525;
+    font-size: 15px;
+}
+
+.info-card h3 {
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.info-card p {
+    color: #000000;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.info-card:hover {
+    background-color: #eed1d1c3;
+}
+
+.location-card {
+    grid-area: location;
+}
+
+.phone-card {
+    grid-area: phone;
+}
+
+.email-card {
+    grid-area: email;
+}
+
+.hour-card {
+    grid-area: hour;
+}
+
+.contact-form-section {
+    grid-area: contact-form-section;
+    padding: 50px 50px;
+    gap: 60px;
+    background-color: #292828;
+    align-items: start;
+    border-radius: 15px;
+}
+
+.form-description {
+    padding: 0 15px;
+}
+
+.form-description h2 {
+    color: #ffffff;
+    font-size: 35px;
+    margin: 10px 0 10px;
+    
+}
+
+.form-description p {
+    color: #b6b6b6;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.form-note {
+    margin-top: 45px;
+    padding: 10px;
+    background-color: #f2f1f1;
+    text-align: center;
+}
+
+.form-note h3 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.form-note p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.form-card {
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 0 40px 60px;
+    border-radius: 20px;
+    background-color: #f2f1f1;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 10px 20px 20px;
+    border-radius: 20px;
+}
+
+.input-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 22px;
+}
+
+.input-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.input-group label {
+    color: #373737;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 15px;
+    background-color: #f0efef;
+    border: 2px solid #383838;
+    border-radius: 8px;
+    color: #000000;
+    font-size: 12px;
+}
+
+.input-group input:focus,
+.input-group select:focus,
+.input-group textarea:focus {
+    outline: none;
+    border: 2px solid #bd1616;
+}
+
+.input-group input::placeholder,
+.input-group textarea::placeholder {
+    color: #626262;
+}
+
+.input-group select {
+    cursor: pointer;
+}
+
+textarea {
+    height: 100px;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 16px;
+    background-color: #e63939;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover,
+.whatsapp-btn:hover {
+    background-color: #bd2525;
+}
+
+.location-section {
+    grid-area: location-section;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(206, 25, 25);
+    border-radius: 20px;
+}
+
+.location-section h2 {
+    font-size: 40px;
+}
+
+.location-section h2 span {
+    color: #ffffff;
+}
+
+.location-section p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.location-btn {
+    text-align: center;
+}
+
+.location-btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #bd2525;
+    font-size: 20px;
+    text-decoration: none;
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease,
+        color 0.3s ease;
+}
+
+.location-btn .fa-location-dot {
+    color: #e63939;
+}
+
+.location-btn a:hover {
+    transform: scale(1.05);
+    background-color: #000000;
+    color: #ffffff;
+}
