@@ -3,7 +3,8 @@
 .hero-gallery {
     position: relative;
     height: 380px;
-    background: url("../assets/images/gallery/gallery5.jpg");
+    background: url("../assets/images/gallery/costumer.jpg");
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
