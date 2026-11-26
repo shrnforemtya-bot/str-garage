@@ -14,3 +14,7 @@ body {
     color: #292929;
     padding-top: 80px;
 }
+
+.navbar .active {
+    border-bottom: 2px solid rgb(173, 4, 4);
+}
