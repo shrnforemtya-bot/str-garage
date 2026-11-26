@@ -1,0 +1,163 @@
+@import url(header-footer.css);
+
+.pricing-hero {
+    background: linear-gradient(135deg, #0b0b0b 0%, #1c1c1c 100%);
+    border-bottom: 3px solid #e63939;
+    padding: 90px 9%;
+    text-align: center;
+}
+
+.pricing-hero h1 {
+    font-size: 56px;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+
+.pricing-hero h1 span {
+    color: #e63939;
+}
+
+.pricing-hero p {
+    color: #cccccc;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.pricing-category {
+    padding: 80px 9%;
+    background-color: #f9f9f9;
+    color: #222222;
+}
+
+.dark-bg {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-heading h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.section-heading h2 span {
+    color: #e63939;
+}
+
+.section-heading p {
+    font-size: 15px;
+    color: #666666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.dark-bg .section-heading p {
+    color: #cccccc;
+}
+
+.packages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.package-card {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border-bottom: 4px solid #e63939;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.package-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #fceaea;
+    color: #e63939;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.card-title {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.card-desc {
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    min-height: 45px;
+}
+
+.card-divider {
+    border: none;
+    border-top: 1px solid #eeeeee;
+    margin: 20px 0;
+}
+
+.price-label {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    color: #999999;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.card-price {
+    font-size: 28px;
+    font-weight: bold;
+    color: #e63939;
+    margin-top: auto;
+}
+
+.package-rates-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.package-rates-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px dashed #eeeeee;
+    font-size: 14px;
+    color: #555555;
+}
+
+.package-rates-list li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.package-rates-list li strong {
+    font-size: 17px;
+    color: #e63939;
+}
