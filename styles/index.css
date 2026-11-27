@@ -161,9 +161,9 @@
 .services-container {
     width: 100%;
     max-width: 1300px;
-    margin: 40px auto;
+    margin: 30px 50px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
@@ -190,7 +190,9 @@
 .service-card img {
     display: flex;
     justify-content: center;
-    width: 250px;
+    align-items: center;
+    width: 400px;
+    height: 200px;
     margin-bottom: 22px;
     border-radius: 10px;
 }
@@ -207,6 +209,7 @@
 }
 
 .btn-c {
+    text-align: center;
     color: white;
     background-color: #d32f2f;
     border: 2px solid #d32f2f;
