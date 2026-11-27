@@ -346,6 +346,11 @@ h1, h2, h3 {
     margin-top: 15px;
 }
 
+.achievement-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+
 .vision {
     background: #1b1b1b;
 }
