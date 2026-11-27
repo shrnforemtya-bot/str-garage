@@ -1,7 +1,7 @@
 @import url(header-footer.css);
 
 .pricing-hero {
-    background: linear-gradient(135deg, #0b0b0b 0%, #1c1c1c 100%);
+    background: url(../assets/images/hero/hero2.jpg);
     border-bottom: 3px solid #e63939;
     padding: 90px 9%;
     text-align: center;
