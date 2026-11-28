@@ -66,8 +66,12 @@ h3 {
 .about-hero {
     height: 480px;
     background:
-        linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.35)),
-        url("../assets/images/about/garage.jpg");
+        linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.35)
+        ),
+        url("../assets/images/about/garage-front-desk.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -424,8 +428,11 @@ h3 {
     padding: 100px 9%;
     text-align: center;
     background:
-        linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-        url("../assets/images/about/garage.jpg");
+        linear-gradient(
+            rgba(0, 0, 0, 0.85),
+            rgba(0, 0, 0, 0.85)
+        ),
+        url("../assets/images/about/garage-surrounding.jpg");
     background-position: center;
     background-size: cover;
 }

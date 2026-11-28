@@ -22,7 +22,7 @@ main {
     padding: 70px 100px;
     background:
         linear-gradient(to right, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.3)),
-        url("../assets/images/hero/hero-str.jpg");
+        url("../assets/images/hero/work-session.jpg");
     background-size: cover;
     background-position: center;
 }
