@@ -64,7 +64,7 @@ h1, h2, h3 {
             rgba(0, 0, 0, 0.9),
             rgba(0, 0, 0, 0.35)
         ),
-        url("../assets/images/about/garage.jpg");
+        url("../assets/images/about/garage-front-desk.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -425,7 +425,7 @@ h1, h2, h3 {
             rgba(0, 0, 0, 0.85),
             rgba(0, 0, 0, 0.85)
         ),
-        url("../assets/images/about/garage.jpg");
+        url("../assets/images/about/garage-surrounding.jpg");
     background-position: center;
     background-size: cover;
 }
